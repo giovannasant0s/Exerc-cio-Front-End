@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- A descrição perfeita para o Google -->
+    <meta name="description" content="Uma descrição breve para o Google">
+
+    <!-- Deixar o site responsivo de acordo com: Cel, pc e tablet-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- O Título da aba -->
+    <title> Briga do Ano | Início</title>
+</head>
+<body>
+    <!-- O Topo da Casa (Fachada)-->
+     <header>
+        <div class="container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAtyB3B1IzYRfrXwYcltKvNUuNelrE7aa8BfLtQwF0XA&s=10"
+            alt="A GRANDE BRIGA DE 2026">
+
+            <!-- O Uníco ha da página (Manchete Principal)-->
+             <h1>JOJO VS MALEVOLA</h1>
+             <br>
+             <p>OHHHH JOJO VAI DESISTIR DA BRIGA?</p>
+
+             <nav> 
+                 <ul>
+                    <li><a href="#sobre">Sobre a briga</a></li>
+                    <li><a href="#serviços">Serviços e Preços</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                 </ul>
+             </nav>
+
+        </div>
+     </header>
+
+     <!--O MIOLO PRINCIPAL-->
+     <MAIn>
+        <!--SEÇAO BIBLIOGRAFIA-->
+        <SEction id="Sobre">
+            <DIv class="container">
+                <h2>Um pouco sobre a briga:</h2>
+                <br>
+                <p>A influenciadora rebateu os comentários publicamente, afirmando que não aceita falsidade, ressaltando que prefere ser transparente sobre suas opiniões a manter relações superficiais.</p>
+                <br><br>
+                <h3>O caso gerou ampla discussão entre seus seguidores e em páginas de fofoca, dividindo opiniões entre quem apoia o posicionamento sem filtros da cantora e quem critica sua postura nas redes.</h3>
+                <UL>
+                    <LI>Falsidade</LI>
+                    <LI>Desabafo</LI>
+                    <LI>Repercussão</LI>
+                </UL>
+            </DIv>
+        </SEction>
+        <!--SEÇÃO DE TABELA DE SERVIÇOS (DADOS TABULARES)-->
+         <SEction id="SERVICOS">
+            <DIv class="container">
+                <H2>PACOTE DE INFORMAÇÕES</H2>
+                <P>PACOTE DISPONIVEIS</P>
+                <BR></BR>
+                <table>
+					<thead>
+						<tr>
+							<th>Pacote</th>
+							<th>Descrição do Serviço</th>
+							<th>Prazo (Dias)</th>
+							<th>Valor Base</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>Confidencial</td>
+							<td>5 fofocas</td>
+							<td>15 dias</td>
+							<td>R$15,00</td>
+						</tr>
+
+						<tr>
+							<td>Mega Secreto</td>
+							<td>20 fofocas</td>
+							<td>30 dias</td>
+							<td>R$30,00</td>
+						</tr>
+					</tbody>
+				</table>
+            </DIv>
+
+        </SEction>
+
+    <!--SEÇÃO DE CONTATO-->
+    <SEction id="Contatos">
+                <DIV class="container">
+                   <H2>Vamos iniciar uma conversa?</H2>
+                   <form>
+
+                        <!--Usamos uma div para agrupar o rótulo e o campo-->
+                        <div class="Grupo formulário">
+                            <label>Nome completo:</label><br>
+                            <input type="text" placeholder="Digite seu nome">
+                        </div>                    
+                        <br>
+                        <div class="Grupo-formulario">
+                            <label>E-mail profissional:</label><br>
+                            <input type="email" placeholder="nome@empresa.com">
+                        </div>    
+                        <br>
+                        <div class="grupo-formulario">
+                            <label>Tipo de pacote:</label> <br>
+                            <input type="radio" name="tipoServico"> CONFINDENCIAL <br>
+                            <input type="radio" name="tipoServico"> MEGA SECRETO
+                        </div>
+                        <br>
+                        <div class="grupo-formulario">
+                            <button type="submit">Enviar solicitação</button>
+                        </div>
+                   </form>
+                </DIV>
+
+    </SEction>
+</MAIn>
+<!--O rodape da casa-->
+<footer>
+    <div class="container">
+        <center><p>&copy; 2026 - Desenvolvido por Giovanna Santos. Contruído por Html 5.</p></center>
+    </div>
+</footer>
+</body>
+</html>
